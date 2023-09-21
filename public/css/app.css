@@ -1,0 +1,42 @@
+body {
+    overflow: overlay;
+    font-family: 'Nunito', sans-serif;
+    padding: 0 !important;
+}
+
+*::-webkit-scrollbar {
+    width: 0.875rem;
+}
+
+*::-webkit-scrollbar-button {
+    display: none;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    border: 0.25rem solid transparent;
+    background-clip: content-box;
+    background-color: #bbbbbb;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: #aaaaaa;
+}
+
+.list-menu:hover {
+    background-color: var(--bs-gray-200);
+    color: #000000;
+}
+
+.list-menu.danger:hover {
+    background-color: var(--bs-danger);
+    color: var(--bs-white);
+}
+
+.hover:hover {
+    background: var(--bs-gray-200);
+}
